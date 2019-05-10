@@ -1,0 +1,12 @@
+// var adjective = prompt('Provide an adjective');
+// var verb = prompt('Provide a verb');
+// var noun = prompt('Provide a noun');
+// alert('Are u ready for the message?');
+// var result = 'There was once a ' + adjective + ' Programmer, who wanted to use Javascript to ' + verb + ' the ' + noun + '.';
+// document.write(result);
+var end_point = prompt('Enter the upper bound');
+var end_point1 = parseInt(end_point);
+var start_point = prompt('Enter the lower bound');
+var start_point1 = parseInt(start_point);
+var number = Math.floor(Math.random() * (end_point1 - start_point1 + 1)) + start_point1;
+alert(number);
